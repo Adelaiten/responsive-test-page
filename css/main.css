@@ -1,0 +1,54 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open-sans";
+    color: #37474F;
+    font-size: 1.6rem;
+}
+.page-header {
+    position: absolute;
+    padding: 20px;
+    padding-top:28px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.page-logo {
+    fill: #ffffff;
+    width: 100px;
+}
+.page-nav .hamburger {
+    border: 0;
+    background: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+.page-nav .hamburger .hamburger-icon {
+    width: 18px;
+    height: 6px;
+}
+.page-nav .hamburger .close-icon {
+    display: none;
+}
+.page-nav .navigation-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.article .article-header {
+    background: url(../img/header-bgr.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 100px;
+}
+.article-title {
+    margin: 0;
+}
